@@ -1,0 +1,25 @@
+/*variables in sass syntax*/
+.card-block-mint {
+  background: #d9f5e8; }
+
+.card-block-teal {
+  background: #37cbc2; }
+
+.card-block-gold {
+  background: #ffbb33; }
+
+.card-block-tomato {
+  background: tomato; }
+
+/*CSS declaration of those global scoped variables*/
+body {
+  font: "Raleway", sans-serif; }
+
+.name-div, .rgb-div, .hsl-div {
+  display: flex;
+  justify-content: space-between; }
+
+.card-block-mint, .card-block-teal, .card-block-gold, .card-block-tomato {
+  height: 160px; }
+
+/*# sourceMappingURL=output.css.map */

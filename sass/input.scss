@@ -1,0 +1,31 @@
+/*variables in sass syntax*/
+$primary-font: 'Raleway', sans-serif;
+$color-height: 160px;
+
+$color-array:(
+  mint: rgb(217, 245, 232),
+  teal: rgb(55, 203, 194),
+  gold: rgb(255, 187, 51),
+  tomato: rgb(255, 99, 71)
+);
+
+@each $color, $rgb in $color-array {
+  .card-block-#{$color} {
+  background: $rgb;
+  }
+};
+
+
+/*CSS declaration of those global scoped variables*/
+body {
+  font: $primary-font;
+}
+
+.name-div, .rgb-div, .hsl-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-block-mint, .card-block-teal, .card-block-gold, .card-block-tomato {
+  height: $color-height;
+}
