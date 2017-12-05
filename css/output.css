@@ -2,13 +2,97 @@
 .card-block-mint {
   background: #d9f5e8; }
 
+.card-block-mint1 {
+  background: #edfffc; }
+
+.card-block-mint2 {
+  background: #d9f5e8; }
+
+.card-block-mint3 {
+  background: #c5e1d4; }
+
+.card-block-mint-mint2 {
+  background: #d9f5e7; }
+
+.card-block-mint-teal2 {
+  background: #70dacf; }
+
+.card-block-mint-gold2 {
+  background: #f2cf72; }
+
+.card-block-mint-tomato2 {
+  background: #f2967f; }
+
 .card-block-teal {
   background: #37cbc2; }
+
+.card-block-teal1 {
+  background: #4bdfd6; }
+
+.card-block-teal2 {
+  background: #37cbc2; }
+
+.card-block-teal3 {
+  background: #23b7ae; }
+
+.card-block-teal-mint2 {
+  background: #a0e6d9; }
+
+.card-block-teal-teal2 {
+  background: #37cbc2; }
+
+.card-block-teal-gold2 {
+  background: #b9c165; }
+
+.card-block-teal-tomato2 {
+  background: #b98772; }
 
 .card-block-gold {
   background: #ffbb33; }
 
+.card-block-gold1 {
+  background: #ffcf47; }
+
+.card-block-gold2 {
+  background: #ffbb33; }
+
+.card-block-gold3 {
+  background: #eba71f; }
+
+.card-block-gold-mint2 {
+  background: #e6e1a7; }
+
+.card-block-gold-teal2 {
+  background: #7dc590; }
+
+.card-block-gold-gold2 {
+  background: #ffbb33; }
+
+.card-block-gold-tomato2 {
+  background: #ff8240; }
+
 .card-block-tomato {
+  background: tomato; }
+
+.card-block-tomato1 {
+  background: #ff775b; }
+
+.card-block-tomato2 {
+  background: tomato; }
+
+.card-block-tomato3 {
+  background: #eb4f33; }
+
+.card-block-tomato-mint2 {
+  background: #e6c2ae; }
+
+.card-block-tomato-teal2 {
+  background: #7da797; }
+
+.card-block-tomato-gold2 {
+  background: #ff9c3a; }
+
+.card-block-tomato-tomato2 {
   background: tomato; }
 
 /*CSS declaration of those global scoped variables*/
@@ -20,6 +104,18 @@ body {
   justify-content: space-between; }
 
 .card-block-mint, .card-block-teal, .card-block-gold, .card-block-tomato {
+  height: 160px; }
+
+.card-block-mint1, .card-block-mint2, .card-block-mint3 {
+  height: 160px; }
+
+.card-block-teal1, .card-block-teal2, .card-block-teal3 {
+  height: 160px; }
+
+.card-block-gold1, .card-block-gold2, .card-block-gold3 {
+  height: 160px; }
+
+.card-block-tomato1, .card-block-tomato2, .card-block-tomato3 {
   height: 160px; }
 
 /*# sourceMappingURL=output.css.map */

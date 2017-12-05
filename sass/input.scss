@@ -9,10 +9,39 @@ $color-array:(
   tomato: rgb(255, 99, 71)
 );
 
+$tint-array:(
+  1: 20,
+  2: 0,
+  3: -20,
+);
+
+$color-array2:(
+  mint2: #D9F5E6,
+  teal2: #37CBC2,
+  gold2: #FFBB33,
+  tomato2: #FF6347
+);
+
+
 @each $color, $rgb in $color-array {
   .card-block-#{$color} {
   background: $rgb;
   }
+
+  @each $number, $val in $tint-array {
+    .card-block-#{$color}#{$number} {
+      background: $rgb + $val;
+    }
+
+  }
+  @each $color2, $rgb2 in $color-array2 {
+    .card-block-#{$color}-#{$color2} {
+      background: mix($rgb, $rgb2, 35%);
+    }
+  }
+
+
+
 };
 
 
@@ -27,5 +56,21 @@ body {
 }
 
 .card-block-mint, .card-block-teal, .card-block-gold, .card-block-tomato {
+  height: $color-height;
+}
+
+.card-block-mint1, .card-block-mint2, .card-block-mint3 {
+  height: $color-height;
+}
+
+.card-block-teal1, .card-block-teal2, .card-block-teal3 {
+  height: $color-height;
+}
+
+.card-block-gold1, .card-block-gold2, .card-block-gold3 {
+  height: $color-height;
+}
+
+.card-block-tomato1, .card-block-tomato2, .card-block-tomato3 {
   height: $color-height;
 }
